@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* Header */
+header {
+    background: #0b3d91;
+    color: white;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffd700;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 50px 10%;
+    background: white;
+}
+
+.intro h1 {
+    color: #0b3d91;
+    font-size: 36px;
+}
+
+/* Account cards */
+.accounts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 50px 10%;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #0b3d91;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #0b3d91;
+    color: white;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffd700;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Intro section */
+.about {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #0b3d91;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Service boxes */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10%;
+}
+
+.box {
+    width: 30%;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+    color: #0b3d91;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
